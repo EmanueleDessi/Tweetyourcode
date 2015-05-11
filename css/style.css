@@ -5,7 +5,7 @@ figure{
 
 p{
 
-	font-family: sans-serif;
+	font-family: Myriad Pro;
 }
 
 body{
@@ -48,17 +48,36 @@ body{
 
 	position: absolute;
 	background-color: white;
-	height: 24%;
-	width: 18%;
-	margin-top: 33%;
-	margin-left: 41%;
-	z-index: 1; 
+	height: 150px;
+	width: 262px;
+	z-index: 1;
+	margin-left: 507px;
+	margin-top: 336px;
 }
 
 .account_text{
 
 	text-align: center;
-	font-size: 5pt;
+	font-size: 16px;
+	font-family: Myriad Pro;
+}
+
+#img_GH{
+
+	float: left;
+	margin-left: 32px;
+}
+
+#img_TW{
+
+	float: left;
+	margin-left: 32px;
+}
+
+.text_account{
+
+	width: 189px;
+ 	margin-top: 20px;
 }
 
 #container1{
@@ -80,6 +99,14 @@ body{
 #img_logo{
 
 	margin-top: 25px;
+}
+
+#logo_text{
+
+	padding-right: 380px;
+	padding-left: 350px;
+	font-family: Myriad Pro;
+	font-size: 16px;
 }
 
 #container2{
@@ -152,8 +179,8 @@ body{
 .internalText{
 
 	text-align: center;
-	font-size: smaller;
-	padding: 5%;
+	font-size: 16px;
+
 }
 
 #container3{
