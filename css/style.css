@@ -120,7 +120,7 @@ body{
 
 #GH{
 
-	margin-top: 35%;
+	margin-top: 32%;
 }
 
 #internal_github{
@@ -132,7 +132,7 @@ body{
 
 #code{
 
-	margin-top: 31%;
+	margin-top: 27%;
 }
 
 #internal_code{
@@ -140,12 +140,12 @@ body{
 	height: 36%;
 	margin-left: 20%;
 	margin-top: 12%;
-	margin-bottom: 11%;
+	margin-bottom: 10%;
 }
 
 #cloud{
 
-	margin-top: 35%;
+	margin-top: 31%;
 }
 
 #internal_cloud{
@@ -157,12 +157,12 @@ body{
 
 #twitter{
 
-	margin-top: 35%;
+	margin-top: 32%;
 }
 
 #internal_twitter{
 
-	height: 44%;
+	height: 43%;
 	margin-left: 29%;
 	margin-top: 7%;
 }
