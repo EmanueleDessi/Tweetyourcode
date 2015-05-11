@@ -56,6 +56,22 @@ body{
 	margin: 0 0;
 }
 
+#accounts{
+
+	position: absolute;
+	background-color: white;
+	height: 24%;
+	width: 18%;
+	margin-top: 33%;
+	margin-left: 41%;
+	z-index: 1; 
+}
+
+.account_text{
+
+	font-size: 5pt;
+}
+
 #container1{
 
 	width: 100%;
@@ -183,10 +199,41 @@ body{
 #awards{
 
 	height: 100%;
-	width: 50%;
+	width: 57%;
 	position: relative;
 	margin: 0 auto;
-	background-color: red;
+	background-color: rgb(136,205,210);
+}
+
+#premi{
+
+	background-color: rgb(136,205,210);
+	width: 5%;
+	height: 20%;
+	position: relative;
+	margin-left: 47%;
+}
+
+#img_premio{
+
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+#first{
+
+
+}
+
+#second{
+
+
+}
+
+#third{
+
+
 }
 
 footer{
