@@ -13,13 +13,15 @@ body{
 	margin: 0 0;
 }
 
-@media screen and (min-width: 320px){
+.account_text{
 
-#menu_container{
-
-	width: 320px;
-	height: 75px;
+	text-align: center;
+	font-size: 16px;
+	font-family: Myriad Pro;
 }
+
+/*mobile*/
+@media screen and (min-device-width: 300px) and (max-device-width: 500px){
 
 #menu{
 
@@ -27,9 +29,190 @@ body{
 	height: 75px;
 	background-color: rgb(165,215,222);
 }
+
+#home{
+
+	height: 75px;
+	width: 76px;
+	float:left;
+	background-color: rgb(57,182,176); 
 }
 
-@media screen and (max-width: 1280px){ 
+#tw{
+
+	height: 75px;
+	width: 76px;
+	float:right;
+}
+
+#img_tw_white{
+
+	float: left;
+	margin: auto;
+}
+
+#fb{
+
+	height: 75px;
+	width: 76px;
+	float:right;
+	background-color: rgb(165,215,222);
+	margin: 0 0;
+}
+
+#accounts{
+
+	position: absolute;
+	background-color: white;
+	height: 151px;
+	width: 262px;
+	z-index: 1;
+	margin-left: 29px;
+	margin-top: 274px;
+}
+
+#img_GH{
+
+	float: left;
+	margin-left: 43px;
+}
+
+#img_TW{
+
+	float: left;
+	margin-left: 43px;
+}
+
+.text_account{
+
+	width: 189px;
+ 	margin-top: 20px;
+}
+
+#container1{
+
+	width: 320px;
+	height: 350px;
+	background-color: rgb(136,205,210);
+}
+
+#logo{
+
+	height: 350px;
+	width: 320px;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+	text-align: center;
+}
+
+#img_logo{
+
+	height: 74px;
+	margin-top: 34px;
+}
+
+#logo_text{
+
+	width: 320px;
+	padding-left: 0;
+	padding-right: 0;
+}
+#container2{
+
+	width: 320px;
+	height: 973px;
+	background-color: rgb(57,182,176);
+}
+
+#instructions{
+
+	height: 973px;
+	width: 320px;
+	margin: 0 auto;
+	background-color: rgb(57,182,176);
+}
+
+.internal{
+
+	height: 224px;
+	width: 320px;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#internal_GH{
+
+	height: 280px;
+	text-align: center;
+}
+
+#GH{
+
+	margin-top: 0px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_github{
+
+	display: none;
+}
+
+#mobile_github{
+
+	margin-top: 127px;
+}
+
+#code{
+
+	margin-top: 63px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_code{
+
+	display: none;
+}
+
+#cloud{
+
+	margin-top: 65px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+#internal_cloud{
+
+	display: none;
+}
+
+#twitter{
+
+	margin-top: 66px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_twitter{
+
+	display: none;
+}
+
+.internalText{
+
+	text-align: center;
+	font-size: 16px;
+
+}
+
+
+}
+
+
+/*schermo pc 1280px*/
+@media screen and (min-device-width: 500px) and (max-device-width: 1270px){ 
 
 #menu{
 
@@ -66,18 +249,11 @@ body{
 
 	position: absolute;
 	background-color: white;
-	height: 150px;
+	height: 151px;
 	width: 262px;
 	z-index: 1;
-	margin-left: 507px;
-	margin-top: 336px;
-}
-
-.account_text{
-
-	text-align: center;
-	font-size: 16px;
-	font-family: Myriad Pro;
+	margin-left: 29px;
+	margin-top: 274px;
 }
 
 #img_GH{
@@ -163,6 +339,11 @@ body{
 	margin-bottom: 8px;
 }
 
+#mobile_github{
+
+	display: none;
+}
+
 #code{
 
 	margin-top: 130px;
@@ -175,11 +356,21 @@ body{
 	margin-bottom: 42px;
 }
 
+#mobile_code{
+
+	display: none;
+}
+
 #cloud{
 
 	margin-top: 130px;
 	padding-left: 55px;
 	padding-right: 55px;
+}
+
+#mobile_cloud{
+
+	display: none;
 }
 
 #twitter{
@@ -192,6 +383,11 @@ body{
 #internal_twitter{
 
 	margin-bottom: 9px;
+}
+
+#mobile_twitter{
+
+	display: none;
 }
 
 .internalText{
@@ -297,8 +493,10 @@ footer{
 	color:  white;
 }
 }
+ 
 
-@media screen and (max-width: 2000px){
+ /*schermo pc > 1280*/
+@media screen and (min-device-width: 1270px) and (max-device-width: 2000px){
 
 	#menu{
 
@@ -340,13 +538,6 @@ footer{
 	z-index: 1;
 	margin-left: 507px;
 	margin-top: 336px;
-}
-
-.account_text{
-
-	text-align: center;
-	font-size: 16px;
-	font-family: Myriad Pro;
 }
 
 #img_GH{
@@ -432,6 +623,11 @@ footer{
 	margin-bottom: 8px;
 }
 
+#mobile_github{
+
+	display: none;
+}
+
 #code{
 
 	margin-top: 130px;
@@ -444,11 +640,21 @@ footer{
 	margin-bottom: 42px;
 }
 
+#mobile_code{
+
+	display: none;
+}
+
 #cloud{
 
 	margin-top: 130px;
 	padding-left: 55px;
 	padding-right: 55px;
+}
+
+#mobile_cloud{
+
+	display: none;
 }
 
 #twitter{
@@ -461,6 +667,11 @@ footer{
 #internal_twitter{
 
 	margin-bottom: 9px;
+}
+
+#mobile_twitter{
+
+	display: none;
 }
 
 .internalText{
