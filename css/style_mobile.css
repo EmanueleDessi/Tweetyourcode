@@ -1,0 +1,827 @@
+figure{
+
+	margin: 0 0;
+}
+
+p{
+
+	font-family: Myriad Pro;
+}
+
+body{
+
+	margin: 0 0;
+}
+
+@media screen and (min-width: 320px){
+
+#menu_container{
+
+	width: 320px;
+	height: 75px;
+}
+
+#menu{
+
+	max-width: 320px;
+	height: 75px;
+	background-color: rgb(165,215,222);
+}
+}
+
+@media screen and (max-width: 1280px){ 
+
+#menu{
+
+	width: 100%;
+	height: 75px;
+	background-color: rgb(165,215,222);
+}
+
+#home{
+
+	height: 100%;
+	width: 76px;
+	float:left;
+	background-color: rgb(57,182,176); 
+}
+
+#tw{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+}
+
+#fb{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+	background-color: rgb(165,215,222);
+	margin: 0 0;
+}
+
+#accounts{
+
+	position: absolute;
+	background-color: white;
+	height: 150px;
+	width: 262px;
+	z-index: 1;
+	margin-left: 507px;
+	margin-top: 336px;
+}
+
+.account_text{
+
+	text-align: center;
+	font-size: 16px;
+	font-family: Myriad Pro;
+}
+
+#img_GH{
+
+	float: left;
+	margin-left: 32px;
+}
+
+#img_TW{
+
+	float: left;
+	margin-left: 32px;
+}
+
+.text_account{
+
+	width: 189px;
+ 	margin-top: 20px;
+}
+
+#container1{
+
+	width: 100%;
+	height: 410px;
+	background-color: rgb(136,205,210);
+}
+
+#logo{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+	text-align: center;
+}
+
+#img_logo{
+
+	margin-top: 25px;
+}
+
+#logo_text{
+
+	padding-right: 380px;
+	padding-left: 350px;
+	font-family: Myriad Pro;
+	font-size: 16px;
+}
+
+#container2{
+
+	width: 100%;
+	height: 483px;
+	background-color: rgb(57,182,176);
+}
+
+#instructions{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(57,182,176);
+}
+
+.internal{
+
+	height: 100%;
+	width: 315px;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#GH{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_github{
+
+	margin-bottom: 8px;
+}
+
+#code{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_code{
+
+	margin-bottom: 42px;
+}
+
+#cloud{
+
+	margin-top: 130px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+#twitter{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_twitter{
+
+	margin-bottom: 9px;
+}
+
+.internalText{
+
+	text-align: center;
+	font-size: 16px;
+
+}
+
+#container3{
+
+	width: 100%;
+	height: 344px;
+	background-color: rgb(136,205,210);
+}
+
+#awards{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+}
+
+#premi{
+
+	background-color: rgb(136,205,210);
+	width: 109px;
+	height: 118px;
+	margin: 0 auto;
+}
+
+#first{
+
+	float: left;
+	margin-left: 273px;
+	text-align: center;
+}
+
+#second{
+
+	float: right;
+	margin-right: 260px;
+}
+
+footer{
+
+	width: 100%;
+	height: 188px;
+	background-color: rgb(51,51,51);
+}
+
+#contacts{
+
+	width: 100%;
+	height: 134px;
+	background-color: rgb(0,0,0);
+}
+
+#contenitore{
+
+	margin: 0 auto;
+	height: 100%;
+	width: 500px;
+	background-color: rgb(0,0,0);
+}
+
+#img_tmb{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#tmb{
+
+	margin-top: 35px;
+}
+
+#site{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#mail{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+.contatti{
+
+	margin-top: 52px; 
+	color: white;
+}
+
+.white{
+
+	text-align: center;
+	color:  white;
+}
+}
+
+@media screen and (max-width: 2000px){
+
+	#menu{
+
+	width: 100%;
+	height: 75px;
+	background-color: rgb(165,215,222);
+}
+
+#home{
+
+	height: 100%;
+	width: 76px;
+	float:left;
+	background-color: rgb(57,182,176); 
+}
+
+#tw{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+}
+
+#fb{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+	background-color: rgb(165,215,222);
+	margin: 0 0;
+}
+
+#accounts{
+
+	position: absolute;
+	background-color: white;
+	height: 150px;
+	width: 262px;
+	z-index: 1;
+	margin-left: 507px;
+	margin-top: 336px;
+}
+
+.account_text{
+
+	text-align: center;
+	font-size: 16px;
+	font-family: Myriad Pro;
+}
+
+#img_GH{
+
+	float: left;
+	margin-left: 32px;
+}
+
+#img_TW{
+
+	float: left;
+	margin-left: 32px;
+}
+
+.text_account{
+
+	width: 189px;
+ 	margin-top: 20px;
+}
+
+#container1{
+
+	width: 100%;
+	height: 410px;
+	background-color: rgb(136,205,210);
+}
+
+#logo{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+	text-align: center;
+}
+
+#img_logo{
+
+	margin-top: 25px;
+}
+
+#logo_text{
+
+	padding-right: 380px;
+	padding-left: 350px;
+	font-family: Myriad Pro;
+	font-size: 16px;
+}
+
+#container2{
+
+	width: 100%;
+	height: 483px;
+	background-color: rgb(57,182,176);
+}
+
+#instructions{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(57,182,176);
+}
+
+.internal{
+
+	height: 100%;
+	width: 315px;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#GH{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_github{
+
+	margin-bottom: 8px;
+}
+
+#code{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_code{
+
+	margin-bottom: 42px;
+}
+
+#cloud{
+
+	margin-top: 130px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+#twitter{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_twitter{
+
+	margin-bottom: 9px;
+}
+
+.internalText{
+
+	text-align: center;
+	font-size: 16px;
+
+}
+
+#container3{
+
+	width: 100%;
+	height: 344px;
+	background-color: rgb(136,205,210);
+}
+
+#awards{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+}
+
+#premi{
+
+	background-color: rgb(136,205,210);
+	width: 109px;
+	height: 118px;
+	margin: 0 auto;
+}
+
+#first{
+
+	float: left;
+	margin-left: 273px;
+	text-align: center;
+}
+
+#second{
+
+	float: right;
+	margin-right: 260px;
+}
+
+footer{
+
+	width: 100%;
+	height: 188px;
+	background-color: rgb(51,51,51);
+}
+
+#contacts{
+
+	width: 100%;
+	height: 134px;
+	background-color: rgb(0,0,0);
+}
+
+#contenitore{
+
+	margin: 0 auto;
+	height: 100%;
+	width: 500px;
+	background-color: rgb(0,0,0);
+}
+
+#img_tmb{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#tmb{
+
+	margin-top: 35px;
+}
+
+#site{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#mail{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+.contatti{
+
+	margin-top: 52px; 
+	color: white;
+}
+
+.white{
+
+	text-align: center;
+	color:  white;
+}
+}
+
+/*#home{
+
+	height: 100%;
+	width: 76px;
+	float:left;
+	background-color: rgb(57,182,176); 
+}
+
+#tw{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+}
+
+#fb{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+	background-color: rgb(165,215,222);
+	margin: 0 0;
+}
+
+#accounts{
+
+	position: absolute;
+	background-color: white;
+	height: 150px;
+	width: 262px;
+	z-index: 1;
+	margin-left: 507px;
+	margin-top: 336px;
+}
+
+.account_text{
+
+	text-align: center;
+	font-size: 16px;
+	font-family: Myriad Pro;
+}
+
+#img_GH{
+
+	float: left;
+	margin-left: 32px;
+}
+
+#img_TW{
+
+	float: left;
+	margin-left: 32px;
+}
+
+.text_account{
+
+	width: 189px;
+ 	margin-top: 20px;
+}
+
+#container1{
+
+	width: 100%;
+	height: 410px;
+	background-color: rgb(136,205,210);
+}
+
+#logo{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+	text-align: center;
+}
+
+#img_logo{
+
+	margin-top: 25px;
+}
+
+#logo_text{
+
+	padding-right: 380px;
+	padding-left: 350px;
+	font-family: Myriad Pro;
+	font-size: 16px;
+}
+
+#container2{
+
+	width: 100%;
+	height: 483px;
+	background-color: rgb(57,182,176);
+}
+
+#instructions{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(57,182,176);
+}
+
+.internal{
+
+	height: 100%;
+	width: 315px;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#GH{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_github{
+
+	margin-bottom: 8px;
+}
+
+#code{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_code{
+
+	margin-bottom: 42px;
+}
+
+#cloud{
+
+	margin-top: 130px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+#twitter{
+
+	margin-top: 130px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+#internal_twitter{
+
+	margin-bottom: 9px;
+}
+
+.internalText{
+
+	text-align: center;
+	font-size: 16px;
+
+}
+
+#container3{
+
+	width: 100%;
+	height: 344px;
+	background-color: rgb(136,205,210);
+}
+
+#awards{
+
+	height: 100%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+}
+
+#premi{
+
+	background-color: rgb(136,205,210);
+	width: 109px;
+	height: 118px;
+	margin: 0 auto;
+}
+
+#first{
+
+	float: left;
+	margin-left: 273px;
+	text-align: center;
+}
+
+#second{
+
+	float: right;
+	margin-right: 260px;
+}
+
+footer{
+
+	width: 100%;
+	height: 188px;
+	background-color: rgb(51,51,51);
+}
+
+#contacts{
+
+	width: 100%;
+	height: 134px;
+	background-color: rgb(0,0,0);
+}
+
+#contenitore{
+
+	margin: 0 auto;
+	height: 100%;
+	width: 500px;
+	background-color: rgb(0,0,0);
+}
+
+#img_tmb{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#tmb{
+
+	margin-top: 35px;
+}
+
+#site{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#mail{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+.contatti{
+
+	margin-top: 52px; 
+	color: white;
+}
+
+.white{
+
+	text-align: center;
+	color:  white;
+}*/
