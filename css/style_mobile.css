@@ -356,8 +356,9 @@ footer{
 	height: 150px;
 	width: 262px;
 	z-index: 1;
-	margin-left: 23%;
+	margin-left: -131px;
 	margin-top: 336px;
+	left: 50%;
 }
 
 #img_GH{
