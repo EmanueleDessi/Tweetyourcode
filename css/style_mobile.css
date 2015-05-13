@@ -5,7 +5,7 @@ figure{
 
 p{
 
-	font-family: Myriad Pro;
+	font-family: Source Sans Pro;
 }
 
 body{
@@ -17,15 +17,15 @@ body{
 
 	text-align: center;
 	font-size: 16px;
-	font-family: Myriad Pro;
+	font-family: Source Sans Pro;
 }
 
 /*mobile*/
-@media screen and (min-device-width: 300px) and (max-device-width: 500px){
+@media screen and (min-width: 300px) and (max-width: 500px){
 
 #menu{
 
-	max-width: 320px;
+	width: 100%;
 	height: 75px;
 	background-color: rgb(165,215,222);
 }
@@ -91,7 +91,7 @@ body{
 
 #container1{
 
-	width: 320px;
+	width: 100%;
 	height: 350px;
 	background-color: rgb(136,205,210);
 }
@@ -119,7 +119,7 @@ body{
 }
 #container2{
 
-	width: 320px;
+	width: 100%;
 	height: 973px;
 	background-color: rgb(57,182,176);
 }
@@ -209,7 +209,7 @@ body{
 
 #container3{
 
-	width: 320px;
+	width: 100%;
 	height: 546px;
 	background-color: rgb(136,205,210);
 }
@@ -244,14 +244,14 @@ body{
 
 footer{
 
-	width: 320px;
+	width: 100%;
 	height: 256px;
 	background-color: rgb(51,51,51);
 }
 
 #contacts{
 
-	width: 320px;
+	width: 100%;
 	height: 188px;
 	background-color: rgb(0,0,0);
 }
@@ -307,14 +307,16 @@ footer{
 	text-align: center;
 	color:  white;
 	width: 278px;
-	padding-left: 18px;
+	padding-left: 15%;
 }
 
 }
 
 
-/*schermo pc 1280px*/
-@media screen and (min-device-width: 500px) and (max-device-width: 1270px){ 
+
+/*500 > risoluzione < 975*/
+
+@media screen and (min-width: 500px) and (max-width: 975px){
 
 #menu{
 
@@ -351,11 +353,11 @@ footer{
 
 	position: absolute;
 	background-color: white;
-	height: 151px;
+	height: 150px;
 	width: 262px;
 	z-index: 1;
-	margin-left: 29px;
-	margin-top: 274px;
+	margin-left: 23%;
+	margin-top: 336px;
 }
 
 #img_GH{
@@ -378,7 +380,7 @@ footer{
 
 #container1{
 
-	width: 100%;
+	max-width: 100%;
 	height: 410px;
 	background-color: rgb(136,205,210);
 }
@@ -386,7 +388,311 @@ footer{
 #logo{
 
 	height: 100%;
-	width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+	text-align: center;
+}
+
+#img_logo{
+
+	margin-top: 25px;
+	height: 110px;
+}
+
+#logo_text{
+
+	padding-right: 10%;
+	padding-left: 10%;
+	font-family: Source Sans Pro;
+	font-size: 16px;
+}
+
+#container2{
+
+	max-width: 100%;
+	height: 966px;
+	background-color: rgb(57,182,176);
+}
+
+#instructions{
+
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgb(57,182,176);
+	max-width: 1280px;
+}
+
+.internal{
+
+	height: 483px;
+	width: 50%;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#internal_GH{
+
+	height: 483px;
+	width: 50%;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#GH{
+
+	margin-top: 130px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#internal_github{
+
+	margin-bottom: 8px;
+}
+
+#mobile_github{
+
+	display: none;
+}
+
+#code{
+
+	margin-top: 130px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#internal_code{
+
+	margin-bottom: 42px;
+}
+
+#mobile_code{
+
+	display: none;
+}
+
+#cloud{
+
+	margin-top: 130px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#mobile_cloud{
+
+	display: none;
+}
+
+#twitter{
+
+	margin-top: 130px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#internal_twitter{
+
+	margin-bottom: 9px;
+}
+
+#mobile_twitter{
+
+	display: none;
+}
+
+.internalText{
+
+	text-align: center;
+	font-size: 16px;
+
+}
+
+#container3{
+
+	max-width: 100%;
+	height: 344px;
+	background-color: rgb(136,205,210);
+}
+
+#awards{
+
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgb(136,205,210);
+}
+
+#premi{
+
+	background-color: rgb(136,205,210);
+	width: 109px;
+	height: 118px;
+	margin: 0 auto;
+}
+
+#first{
+
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+}
+
+#second{
+
+	float: right;
+	margin-right: 2%;
+}
+
+footer{
+
+	width: 100%;
+	height: 188px;
+	background-color: rgb(51,51,51);
+}
+
+#contacts{
+
+	width: 100%;
+	height: 134px;
+	background-color: rgb(0,0,0);
+}
+
+#contenitore{
+
+	margin: 0 auto;
+	height: 100%;
+	width: 500px;
+	background-color: rgb(0,0,0);
+}
+
+#img_tmb{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#tmb{
+
+	margin-top: 35px;
+}
+
+#site{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#mail{
+
+	height: 100%;
+	width: 165px;
+	float: left;
+}
+
+#contatto_site{
+
+	margin-top: 48px; 
+	color: white;
+}
+
+#contatto_mail{
+
+	margin-top: 48px; 
+	color: white;
+}
+
+.white{
+
+	text-align: center;
+	color:  white;
+}
+
+}
+
+
+
+/*975 > risoluzione < 1275*/
+@media screen and (min-width: 975px) and (max-width: 1274px){
+
+#menu{
+
+	width: 100%;
+	height: 75px;
+	background-color: rgb(165,215,222);
+}
+
+#home{
+
+	height: 100%;
+	width: 76px;
+	float:left;
+	background-color: rgb(57,182,176); 
+}
+
+#tw{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+}
+
+#fb{
+
+	height: 100%;
+	width: 76px;
+	float:right;
+	background-color: rgb(165,215,222);
+	margin: 0 0;
+}
+
+#accounts{
+
+	position: absolute;
+	background-color: white;
+	height: 150px;
+	width: 262px;
+	z-index: 1;
+	margin-left: 40%;
+	margin-top: 336px;
+}
+
+#img_GH{
+
+	float: left;
+	margin-left: 32px;
+}
+
+#img_TW{
+
+	float: left;
+	margin-left: 32px;
+}
+
+.text_account{
+
+	width: 189px;
+ 	margin-top: 20px;
+}
+
+#container1{
+
+	max-width: 100%;
+	height: 410px;
+	background-color: rgb(136,205,210);
+}
+
+#logo{
+
+	height: 100%;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
 	background-color: rgb(136,205,210);
 	text-align: center;
@@ -399,31 +705,41 @@ footer{
 
 #logo_text{
 
-	padding-right: 380px;
-	padding-left: 350px;
-	font-family: Myriad Pro;
+	padding-right: 180px;
+	padding-left: 180px;
+	font-family: Source Sans Pro;
 	font-size: 16px;
 }
 
 #container2{
 
-	width: 100%;
-	height: 483px;
+	max-width: 100%;
+	height: 966px;
 	background-color: rgb(57,182,176);
 }
 
 #instructions{
 
 	height: 100%;
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: rgb(57,182,176);
+	max-width: 1280px;
 }
 
 .internal{
 
-	height: 100%;
-	width: 315px;
+	height: 483px;
+	width: 50%;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#internal_GH{
+
+	height: 483px;
+	width: 50%;
 	float: left;
 	background-color: rgb(57,182,176);
 	text-align: center;
@@ -501,7 +817,7 @@ footer{
 
 #container3{
 
-	width: 100%;
+	max-width: 100%;
 	height: 344px;
 	background-color: rgb(136,205,210);
 }
@@ -509,7 +825,8 @@ footer{
 #awards{
 
 	height: 100%;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
 	background-color: rgb(136,205,210);
 }
@@ -525,14 +842,14 @@ footer{
 #first{
 
 	float: left;
-	margin-left: 273px;
+	margin-left: 15%;
 	text-align: center;
 }
 
 #second{
 
 	float: right;
-	margin-right: 260px;
+	margin-right: 12%;
 }
 
 footer{
@@ -583,9 +900,15 @@ footer{
 	float: left;
 }
 
-.contatti{
+#contatto_site{
 
-	margin-top: 52px; 
+	margin-top: 48px; 
+	color: white;
+}
+
+#contatto_mail{
+
+	margin-top: 48px; 
 	color: white;
 }
 
@@ -594,13 +917,13 @@ footer{
 	text-align: center;
 	color:  white;
 }
+
 }
- 
 
- /*schermo pc > 1280*/
-@media screen and (min-device-width: 1270px) and (max-device-width: 2000px){
+/*schermo pc 1280px*/
+@media screen and (min-width: 1274px){ 
 
-	#menu{
+#menu{
 
 	width: 100%;
 	height: 75px;
@@ -670,7 +993,8 @@ footer{
 #logo{
 
 	height: 100%;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
 	background-color: rgb(136,205,210);
 	text-align: center;
@@ -685,7 +1009,7 @@ footer{
 
 	padding-right: 380px;
 	padding-left: 350px;
-	font-family: Myriad Pro;
+	font-family: Source Sans Pro;
 	font-size: 16px;
 }
 
@@ -699,15 +1023,25 @@ footer{
 #instructions{
 
 	height: 100%;
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: rgb(57,182,176);
+	max-width: 1280px;
 }
 
 .internal{
 
 	height: 100%;
-	width: 315px;
+	width: 25%;
+	float: left;
+	background-color: rgb(57,182,176);
+	text-align: center;
+}
+
+#internal_GH{
+
+	height: 100%;
+	width: 25%;
 	float: left;
 	background-color: rgb(57,182,176);
 	text-align: center;
@@ -716,8 +1050,6 @@ footer{
 #GH{
 
 	margin-top: 130px;
-	padding-left: 65px;
-	padding-right: 65px;
 }
 
 #internal_github{
@@ -733,8 +1065,6 @@ footer{
 #code{
 
 	margin-top: 130px;
-	padding-left: 65px;
-	padding-right: 65px;
 }
 
 #internal_code{
@@ -750,8 +1080,6 @@ footer{
 #cloud{
 
 	margin-top: 130px;
-	padding-left: 55px;
-	padding-right: 55px;
 }
 
 #mobile_cloud{
@@ -762,8 +1090,6 @@ footer{
 #twitter{
 
 	margin-top: 130px;
-	padding-left: 65px;
-	padding-right: 65px;
 }
 
 #internal_twitter{
@@ -780,7 +1106,8 @@ footer{
 
 	text-align: center;
 	font-size: 16px;
-
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 #container3{
@@ -793,7 +1120,8 @@ footer{
 #awards{
 
 	height: 100%;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
 	background-color: rgb(136,205,210);
 }
@@ -867,7 +1195,13 @@ footer{
 	float: left;
 }
 
-.contatti{
+#contatto_site{
+
+	margin-top: 52px; 
+	color: white;
+}
+
+#contatto_mail{
 
 	margin-top: 52px; 
 	color: white;
@@ -879,262 +1213,3 @@ footer{
 	color:  white;
 }
 }
-
-/*#home{
-
-	height: 100%;
-	width: 76px;
-	float:left;
-	background-color: rgb(57,182,176); 
-}
-
-#tw{
-
-	height: 100%;
-	width: 76px;
-	float:right;
-}
-
-#fb{
-
-	height: 100%;
-	width: 76px;
-	float:right;
-	background-color: rgb(165,215,222);
-	margin: 0 0;
-}
-
-#accounts{
-
-	position: absolute;
-	background-color: white;
-	height: 150px;
-	width: 262px;
-	z-index: 1;
-	margin-left: 507px;
-	margin-top: 336px;
-}
-
-.account_text{
-
-	text-align: center;
-	font-size: 16px;
-	font-family: Myriad Pro;
-}
-
-#img_GH{
-
-	float: left;
-	margin-left: 32px;
-}
-
-#img_TW{
-
-	float: left;
-	margin-left: 32px;
-}
-
-.text_account{
-
-	width: 189px;
- 	margin-top: 20px;
-}
-
-#container1{
-
-	width: 100%;
-	height: 410px;
-	background-color: rgb(136,205,210);
-}
-
-#logo{
-
-	height: 100%;
-	width: 1280px;
-	margin: 0 auto;
-	background-color: rgb(136,205,210);
-	text-align: center;
-}
-
-#img_logo{
-
-	margin-top: 25px;
-}
-
-#logo_text{
-
-	padding-right: 380px;
-	padding-left: 350px;
-	font-family: Myriad Pro;
-	font-size: 16px;
-}
-
-#container2{
-
-	width: 100%;
-	height: 483px;
-	background-color: rgb(57,182,176);
-}
-
-#instructions{
-
-	height: 100%;
-	width: 1280px;
-	margin: 0 auto;
-	background-color: rgb(57,182,176);
-}
-
-.internal{
-
-	height: 100%;
-	width: 315px;
-	float: left;
-	background-color: rgb(57,182,176);
-	text-align: center;
-}
-
-#GH{
-
-	margin-top: 130px;
-	padding-left: 65px;
-	padding-right: 65px;
-}
-
-#internal_github{
-
-	margin-bottom: 8px;
-}
-
-#code{
-
-	margin-top: 130px;
-	padding-left: 65px;
-	padding-right: 65px;
-}
-
-#internal_code{
-
-	margin-bottom: 42px;
-}
-
-#cloud{
-
-	margin-top: 130px;
-	padding-left: 55px;
-	padding-right: 55px;
-}
-
-#twitter{
-
-	margin-top: 130px;
-	padding-left: 65px;
-	padding-right: 65px;
-}
-
-#internal_twitter{
-
-	margin-bottom: 9px;
-}
-
-.internalText{
-
-	text-align: center;
-	font-size: 16px;
-
-}
-
-#container3{
-
-	width: 100%;
-	height: 344px;
-	background-color: rgb(136,205,210);
-}
-
-#awards{
-
-	height: 100%;
-	width: 1280px;
-	margin: 0 auto;
-	background-color: rgb(136,205,210);
-}
-
-#premi{
-
-	background-color: rgb(136,205,210);
-	width: 109px;
-	height: 118px;
-	margin: 0 auto;
-}
-
-#first{
-
-	float: left;
-	margin-left: 273px;
-	text-align: center;
-}
-
-#second{
-
-	float: right;
-	margin-right: 260px;
-}
-
-footer{
-
-	width: 100%;
-	height: 188px;
-	background-color: rgb(51,51,51);
-}
-
-#contacts{
-
-	width: 100%;
-	height: 134px;
-	background-color: rgb(0,0,0);
-}
-
-#contenitore{
-
-	margin: 0 auto;
-	height: 100%;
-	width: 500px;
-	background-color: rgb(0,0,0);
-}
-
-#img_tmb{
-
-	height: 100%;
-	width: 165px;
-	float: left;
-}
-
-#tmb{
-
-	margin-top: 35px;
-}
-
-#site{
-
-	height: 100%;
-	width: 165px;
-	float: left;
-}
-
-#mail{
-
-	height: 100%;
-	width: 165px;
-	float: left;
-}
-
-.contatti{
-
-	margin-top: 52px; 
-	color: white;
-}
-
-.white{
-
-	text-align: center;
-	color:  white;
-}*/
